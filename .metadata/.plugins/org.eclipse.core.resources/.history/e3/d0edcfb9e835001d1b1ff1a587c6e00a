@@ -1,0 +1,29 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String marka = "Mercedes";
+
+		switch (marka) {
+		case "Mercedes":
+			System.out.println("Arabanızın markası : " + marka);
+			break;
+			
+		case "Bmw":
+			System.out.println("Arabanızın markası : " + marka);
+			break;
+			
+		case "Volvo":
+			System.out.println("Arabanızın markası : " + marka);
+			break;
+			
+
+		default:
+			System.out.println("Bilinmeyen marka");
+			break;
+		}
+	}
+
+}

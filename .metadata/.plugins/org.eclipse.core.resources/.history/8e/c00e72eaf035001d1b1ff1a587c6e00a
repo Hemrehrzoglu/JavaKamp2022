@@ -1,0 +1,20 @@
+package recapDemo2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double enBuyuk = 0;
+		
+		double [] myList ={1.4,1.2,4.7,9.8};
+		
+		for(double sayi : myList) {
+			
+			enBuyuk =((enBuyuk < sayi) ? sayi : enBuyuk);
+			
+		}
+		System.out.println("En büyük sayi : " + enBuyuk);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package arraysDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String [] takımlar = new String [5];
+		takımlar[0] = "Galatasaray" ;
+		takımlar[1] = "Fenerbahçe" ;
+		takımlar[2] = "Beşiktaş" ;
+		takımlar[3] = "Trabzon" ;
+		takımlar[4] = "Sakarya" ;
+
+	}
+
+}

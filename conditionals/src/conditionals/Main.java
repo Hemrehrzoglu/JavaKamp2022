@@ -1,0 +1,22 @@
+package conditionals;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int bakiye = 100;
+		
+		if (bakiye < 1000) {
+			System.out.println("Bakiye 1000'den küçüktür");
+			
+		}else if(bakiye == 1000) {
+			System.out.println("Bakiye 1000'e eşittir");
+
+		}else {
+			System.out.println("Bakiye 1000'den büyüktür");
+
+		}
+
+	}
+
+}

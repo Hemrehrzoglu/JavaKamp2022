@@ -1,0 +1,23 @@
+package recapDemo2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double enBuyuk = 0;
+		double toplam =0;
+		
+		double [] myList ={1.4,12.2,4.7,9.8};
+		
+		for(double sayi : myList) {
+			
+			enBuyuk =((enBuyuk < sayi) ? sayi : enBuyuk);  //kısa if yazımı
+			toplam += sayi;
+			
+		}
+		System.out.println("En büyük sayi : " + enBuyuk);
+		System.out.println(toplam);
+
+	}
+
+}

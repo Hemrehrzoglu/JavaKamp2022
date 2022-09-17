@@ -1,0 +1,17 @@
+package variables;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String marka = "Paşa Döner";
+		String subeAdi = "Ümraniye";
+		int subeSayisi = 157;
+		
+		System.out.println(marka + subeAdi +" şubesi " );
+		System.out.println("Şube sayısı : " + subeSayisi);
+		
+
+	}
+
+}

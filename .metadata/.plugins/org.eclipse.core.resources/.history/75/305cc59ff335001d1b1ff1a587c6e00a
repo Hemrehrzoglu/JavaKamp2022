@@ -1,0 +1,19 @@
+package multiDimensionalArrayDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String [][] bölge = new String [3][4];
+		
+		for (int i = 0; i < bölge.length; i++) { // lenght dersek satıdaki sayıyı lar yani ilk parantez içindeki 3
+			for (int j = 0; j < bölge[4].length; j++) {
+				System.out.println(j);
+				
+			}
+			
+		}
+
+	}
+
+}

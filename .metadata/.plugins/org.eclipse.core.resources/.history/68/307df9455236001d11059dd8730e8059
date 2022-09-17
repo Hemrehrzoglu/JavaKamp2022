@@ -1,0 +1,29 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int sayi = 9;
+		int kalan =0;
+		String asalMi = "";
+		
+		for (int i = 2; i < sayi; i++) {
+			
+			if(sayi% i == 0 && sayi%i ==1) {
+				
+				asalMi = "sayı asal değildir";
+				System.out.println("s");
+			}else {
+				asalMi = "sayı asaldır";
+				System.out.println("c");
+			}
+			
+			
+		}
+		System.out.println(asalMi);
+
+		
+	}
+
+}
